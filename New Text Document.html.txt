@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turizm Saytı</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Azərbaycanın Gözəl Məkanları</h1>
+    <nav>
+      <ul>
+        <li><a href="#places">Yerlər</a></li>
+        <li><a href="#about">Haqqında</a></li>
+        <li><a href="#contact">Əlaqə</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="places">
+    <h2>Ən Məşhur Məkanlar</h2>
+    <div class="place">
+      <h3>Quba</h3>
+      <p>Quba, Azərbaycanın şimalında yerləşən gözəl bir turizm məkanıdır. Burada təbiət və mədəniyyətin möhtəşəm birləşməsi vardır.</p>
+    </div>
+    <div class="place">
+      <h3>Şəki</h3>
+      <p>Şəki - Azərbaycanın gözəl dağ şəhəri, zəngin tarixə malikdir.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>Haqqında</h2>
+    <p>Bu sayt, Azərbaycanın ən gözəl turistik yerlərini tanıtmaq məqsədi ilə yaradılmışdır.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Əlaqə</h2>
+    <form action="#">
+      <input type="text" name="name" placeholder="Adınız">
+      <input type="email" name="email" placeholder="Email">
+      <textarea name="message" placeholder="Mesajınızı buraya yazın..."></textarea>
+      <button type="submit">Göndər</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Turizm Saytı - Bütün hüquqlar qorunur</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
